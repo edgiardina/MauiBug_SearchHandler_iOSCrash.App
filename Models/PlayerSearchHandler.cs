@@ -47,7 +47,7 @@ namespace MauiBug_SearchHandler_iOSCrash.Controls
             this.Unfocus();
 
             // The following route works because route names are unique in this app.
-            await Shell.Current.GoToAsync($"player-details?playerId={((Search)item).PlayerId}");
+            await Shell.Current.GoToAsync($"secondpage");
         }
 
     }
